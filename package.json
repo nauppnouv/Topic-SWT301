@@ -1,0 +1,15 @@
+{
+  "name": "datetimechecker-e2e-tests",
+  "version": "1.0.0",
+  "description": "E2E tests for DateTimeChecker using Playwright",
+  "scripts": {
+    "test:e2e": "playwright test tests/e2e/datetime.spec.ts",
+    "test:visual": "playwright test tests/e2e/visual",
+    "test:visual:update": "playwright test tests/e2e/visual --update-snapshots",
+    "test": "playwright test tests/e2e"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.44.0",
+    "allure-playwright": "^3.10.0"
+  }
+}

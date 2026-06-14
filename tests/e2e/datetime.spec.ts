@@ -76,7 +76,7 @@ test.describe('Date Time Checker App - UI Tests', () => {
 // SHEET: CheckDate — Function1 / isValidDate() E2E Tests
 // Aligned with Template_Unit Test Case.xls → Sheet "CheckDate"
 // ============================================================================
-test.describe('CheckDate (isValidDate) — 11 test cases from Excel Template', () => {
+test.describe('CheckDate (isValidDate)', () => {
 
   test.beforeEach(async ({ page }) => {
     await page.goto('/');
@@ -197,7 +197,7 @@ test.describe('CheckDate (isValidDate) — 11 test cases from Excel Template', (
 // DateTimeServiceTest.java. These E2E tests verify the function indirectly
 // through the UI validation flow.
 // ============================================================================
-test.describe('DayInMonth (daysInMonth) — 12 test cases from Excel Template', () => {
+test.describe('DayInMonth (daysInMonth)', () => {
 
   test.beforeEach(async ({ page }) => {
     await page.goto('/');
